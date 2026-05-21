@@ -543,16 +543,68 @@ body {
 .rv-d4 { transition-delay: 0.4s; }
 
 /* ═══════ RESPONSIVE ═══════ */
+
+/* Tablet */
 @media (max-width: 991px) {
   .hero-section { text-align: center; }
   .hero-desc { margin-left: auto; margin-right: auto; }
   .hero-float-card { margin-top: 2.5rem; }
   .section-block { padding: 60px 0; }
+  .section-heading { text-align: center; }
+  .section-sub { margin-left: auto; margin-right: auto; text-align: center; }
+  .section-badge { display: inline-flex; }
 }
+
+/* Mobile */
 @media (max-width: 576px) {
-  .section-block { padding: 48px 0; }
-  .step-card { padding: 20px; }
-  .browser-content { padding: 16px; }
+  /* أهم شي — padding من الحواف */
+  .container { padding-left: 24px !important; padding-right: 32px !important; }
+  .section-block { padding-left: 6px; padding-right: 6px; }
+  .browser-frame { margin-left: 4px; margin-right: 4px; }
+  
+  .hero-section { padding-top: 70px; min-height: auto; padding-bottom: 3rem; }
+  .hero-title { font-size: 1.8rem; line-height: 1.5; }
+  .hero-desc { font-size: 0.92rem; line-height: 1.9; }
   .hero-mini-badge { display: none; }
-  .contract-box { padding: 24px 18px; }
+  .hero-float-card { padding: 18px; }
+
+  .section-block { padding: 40px 0; }
+  .section-heading { font-size: 1.35rem; text-align: center; }
+  .section-sub { font-size: 0.9rem; text-align: center; }
+  .section-badge { margin-bottom: 8px; }
+
+  .step-card { padding: 18px; border-radius: 16px; }
+  .step-number { width: 36px; height: 36px; font-size: 0.9rem; }
+  .step-card h5 { font-size: 0.95rem; }
+  .step-card p { font-size: 0.82rem; }
+
+  .browser-frame { border-radius: 12px; }
+  .browser-content { padding: 14px; }
+  .browser-topbar { padding: 10px 14px; }
+
+  .prog-bar-wrap .prog-label { font-size: 0.8rem; }
+
+  .winner-card { padding: 20px 14px; }
+  .winner-card .score { font-size: 2.2rem; }
+  .winner-card .badge-rec { font-size: 0.78rem; padding: 6px 16px; }
+
+  .chat-bubble { max-width: 92%; font-size: 0.82rem; padding: 8px 12px; }
+
+  .contract-box { padding: 20px 16px; max-width: 100%; border-radius: 16px; }
+  .contract-box .c-row { font-size: 0.82rem; flex-wrap: wrap; gap: 2px; }
+  .contract-box .c-stamp { font-size: 0.82rem; }
+
+  .job-mini { padding: 16px; border-radius: 12px; }
+  .job-mini .ico { font-size: 1.5rem; }
+  .job-mini h6 { font-size: 0.85rem; }
+  .job-mini p { font-size: 0.72rem; }
+
+  .tbl-att { font-size: 0.78rem; }
+
+  .ahdati-nav .brand { font-size: 1.3rem; }
+  .ahdati-footer .f-brand { font-size: 1.6rem; }
+  .ahdati-footer { padding: 36px 0 20px; }
+
+  .btn-gold { padding: 10px 24px !important; font-size: 0.88rem !important; }
+  .btn-brown-outline { padding: 8px 20px !important; font-size: 0.88rem !important; }
 }
